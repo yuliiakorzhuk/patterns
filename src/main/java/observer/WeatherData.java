@@ -33,7 +33,9 @@ public class WeatherData implements Subject {
     }
 
     public void measurementsChanged() {
+        System.out.println("NEW DATA");
         notifyObservers();
+        System.out.println("-------------------------------------------");
     }
 
     public void setMeasurements(float temperature, float humidity, float pressure){
