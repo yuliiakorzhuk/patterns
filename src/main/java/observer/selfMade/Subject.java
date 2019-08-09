@@ -1,4 +1,4 @@
-package observer;
+package observer.selfMade;
 
 //import java.util.Observer;
 

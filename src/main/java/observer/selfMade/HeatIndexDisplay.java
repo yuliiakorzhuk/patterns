@@ -1,4 +1,4 @@
-package observer;
+package observer.selfMade;
 
 public class HeatIndexDisplay implements Observer, Display{
 

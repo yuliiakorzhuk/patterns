@@ -1,7 +1,6 @@
-package observer;
+package observer.selfMade;
 
 public class CurrentConditionsDisplay implements Observer, Display{
-
     private Subject weatherData;
     private float temperature;
     private float humidity;

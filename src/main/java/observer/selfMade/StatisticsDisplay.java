@@ -1,4 +1,4 @@
-package observer;
+package observer.selfMade;
 
 public class StatisticsDisplay implements Observer, Display{
     private Subject weatherData;
@@ -7,7 +7,7 @@ public class StatisticsDisplay implements Observer, Display{
     private float averagePressure=0.0f;
 
     public StatisticsDisplay(Subject weatherData){
-        this.weatherData = new WeatherData();
+        this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
 

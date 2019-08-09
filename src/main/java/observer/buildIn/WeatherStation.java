@@ -1,4 +1,4 @@
-package observer;
+package observer.buildIn;
 
 public class WeatherStation {
     public static void main(String[] args){
